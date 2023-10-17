@@ -1,0 +1,66 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/nba.jpeg);
+  margin: 0;
+}
+
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  background-color: rgba( 255, 255, 255, 0.3 );
+  
+  
+}
+
+
+.background{
+  opacity: 0.5;
+}
+
+.title{
+  font-size: 80px;
+  font-weight: 2000;
+  color: red;
+
+
+}
+
+.input{
+  margin-top: 10px;
+  height: 40px;
+  font-size: 30px;
+}
+
+
+.button {
+  position: relative;
+  padding: 16px 30px;
+  font-size: 1.5rem;
+  color: var(--color);
+  border: 0;
+  border-radius: 4px;
+  text-shadow: 0 0 15px var(--color);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+  z-index: 1;
+  background-color: skyblue;
+  margin-top: 20px;
+}
+.button:hover {
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0px var(--color);
+}
+
+.sub-title{
+  font-size: 50px;
+  background-color: yellow;
+}
